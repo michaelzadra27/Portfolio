@@ -1,0 +1,24 @@
+main {
+    background-color: rgb(185, 185, 185);
+}
+
+header {
+    background-color: #2F4550;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style: none;
+}
+
+
+.zadra {
+    background-color: #586F7C;
+}

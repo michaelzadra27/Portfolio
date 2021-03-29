@@ -1,14 +1,29 @@
 main {
     background-color: rgb(185, 185, 185);
+    height:100%;
+    display: flex;
+
+    
 }
 
+#right {
+    order: 1;
+}
+
+ /* .column {
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}  */
+
 header {
-    background-color: #2F4550;
+    background-color: #0a3b53;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
     color: #fff;
+    padding-left: 0px;
 }
 
 nav ul {
@@ -20,5 +35,29 @@ nav ul {
 
 
 .zadra {
+    text-indent: 110px;
     background-color: #586F7C;
+    margin-right: 100px;
+    width:13em;
 }
+
+a {
+    color:white;
+
+}
+
+ aside {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(185, 185, 185);
+ }
+
+ aside {
+     border-right: 6px solid lightskyblue;
+ }
+
+ #right {
+     width:100%;
+ }
+
+

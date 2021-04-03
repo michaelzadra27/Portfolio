@@ -2,82 +2,92 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CSS Pseudo-Classes</title>
-  <link rel="stylesheet" href="./assets/rest.css" />
-  <link rel="stylesheet" href="./assets/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Pseudo-Classes</title>
+    <link rel="stylesheet" href="./assets/rest.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
 </head>
+<title>Mike's Portfolio</title>
 
 <body>
-<header>
-    <div class="zadra">
-      <h1>Zadra</h1>
+    <header>
+        <div class="zadra">
+            <h1>Zadra</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#aboutmetext">About Me</a></li>
+                <li><a href="#workspot">Work</a></li>
+                <li><a href="#contactmespot">Contact Me</a></li>
+                <li><a href="#">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="subimage">
+        <img src="./assets/images/bricks.jpg" />
     </div>
-    <nav>
-      <ul>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Contact Me</a></li>
-        <li><a href="#">Resume</a></li>
-        </ul>
-    </nav>
-</header>
 
-<div class="subimage">
-    <img src ="./assets/images/albums.jpg"/>
-</div>
+    <main>
+        <!-- Main section containing grid -->
+        <section class="grid">
+            <div class="aboutmeleft">About Me
 
-<main>
- <section id="right" class="column">
-  <section id="aboutmemain">
-      <P>My name is Michael Zadra and i'm an aspiring developer. I have thus far enjoyed my time learning to code and have built this portfolio to showcase my work.
-      </P>
-      <P>Below you find links to my applications that i've built. One of them is a shopify store with functioning JavaScript. The other is a social media website that helps coders work on coder together.</P>
-  </section>
-  <section id="imagesection">
-      <div id="bigimageblock">
-        <img src="./assets/images/snow.jpg">
-      </div>
-      <div id="smallimages">
-        <div></div>
-      </div>
-  </section>
-  <footer>
-    <ul class="footerbar">
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">About Me</a></li>
-    </ul>
-  </footer>
- </section>
-  
- <section id="left" class="column">
-    <section>
-        <aside id="aboutmeaside">
-            <div id="aboutmemain">
-                <h2>About Me</h2>
             </div>
-        </aside>
-    </section>
-    <section>
-        <aside id="workaside">
-            <div id="work">
-                <h2>Work</h2>
+            <!-- First section with paragraphs -->
+            <div id="aboutmetext" class="aboutmemain">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, eius sint. Adipisci ab porro sint, consectetur aspernatur est reprehenderit obcaecati! Repellat quasi magni illo. Ratione sunt vero perspiciatis quis corrupti!</p>
+                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam quaerat dolor porro nisi architecto voluptas, obcaecati, eum laudantium possimus voluptatibus dicta beatae deserunt commodi dolore? Totam quis voluptatem ipsa ipsum.</P>
+
             </div>
-        </aside>
-    </section>
-    <section>
-        <aside id="contactmeaside">
-            <div>
-                <h2>Contact Me</h2>
+            <div id="workspot"class="work">Work
+
             </div>
-        </aside>
-    </section>
-</section>
-  
-</main>
+            <!-- Second section with photos -->
+            <div class="work">
+
+            </div>
+            <section class="bigimagebox"><a href="https://github.com/michaelzadra27" target="_blank"><img src="./assets/images/bigfood.jpg"
+                        alt="image of crowd" class="size"></a>
+            </section>
+            <div class="work">Contact Me
+
+            </div>
+
+            <!-- This works as the footer bar -->
+            <div id="contactmespot" class="contactbar">
+                <footer>
+                    <ul class="ul">
+                        <li><a href="___" class ="textcolor">About Me</a></li>
+                        <li><a href="___" class ="textcolor">Work</a></li>
+                        <li><a href="___" class ="textcolor">Contact Me</a></li>
+                        <li><a href="___" class ="textcolor">Resume</a></li>
+                    </ul>
+                </footer>
+            </div>
+            <div class="smallimages">
+                <section class="grid2">
+                    <div class="smallimage"><a href="https://github.com/michaelzadra27" target="_blank"><img src="./assets/images/food.jpg"
+                                alt="image of crowd" class="size"></a></div>
+                    <div class="smallimage"><a href="https://github.com/michaelzadra27" target="_blank"><img src="./assets/images/curry.jpg"
+                                alt="image of crowd" class="size"></a></div>
+                    <div class="smallimage"><a href="https://github.com/michaelzadra27" target="_blank"><img src="./assets/images/breakfast.jpg"
+                                alt="image of crowd" class="size"></a></div>
+                    <div class="smallimage"><a href="https://github.com/michaelzadra27" target="_blank"><img src="./assets/images/salad.jpg"
+                                alt="image of crowd" class="size"></a></div>
+
+
+
+                </section>
+
+            </div>
+
+        </section>
+        </section>
+
+
+    </main>
 
 
 
